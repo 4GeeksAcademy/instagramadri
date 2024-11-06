@@ -1,0 +1,53 @@
+body {
+    background: cyan;
+    margin: 0;
+}
+
+header {
+    background: white;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.publicaciones {
+    width: 600px;
+    margin: auto;
+}
+
+.post {
+    background: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post img {
+    width: 100%;
+}
+
+.post h2, p {
+    padding: 15px;
+}
+
+.titulo-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.titulo-post h2 {
+    margin: 0;
+}
+
+.titulo-post span {
+    margin: 0;
+    padding: 5px;
+    border-radius: 4px;
+    color: gray;
+}
